@@ -1,11 +1,14 @@
-- name: University of Washington 
+- name: Korea Advanced Institute of Science and Technology (KAIST)
   description: >-
-    Ph. D in Computer Science, advised by <a href="https://smseitz.com">Steven M. Seitz</a> and
-    <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
-    Supported by Samsung Scholarship 2015-2020 ($50,000/year for 5 years)
-  dates: Fall 2015 - Spring 2022
+    Ph.D. in Mechanical Engineering, advised by Prof. Hae-Won Park.
+  dates: Spring 2024 - Present
 
-- name: University of Illinois at Urbana-Champaign
+- name: Korea Advanced Institute of Science and Technology (KAIST)
   description: >-
-    B.S. in Computer Science, advised by <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>.
-  dates: Fall 2009 - Spring 2013
+    M.S. in Mechanical Engineering, advised by Prof. Hae-Won Park.
+  dates: Spring 2022 - Fall 2023
+
+- name: Korea Advanced Institute of Science and Technology (KAIST)
+  description: >-
+    B.S. in Mathematical Sciences.
+  dates: Spring 2017 - Fall 2021

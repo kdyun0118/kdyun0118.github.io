@@ -1,136 +1,153 @@
-- id: illuminerf
-  title: "IllumiNeRF 3D Relighting without Inverse Rendering"
-  venue: NeurIPS, 2024
-  description: "3D relighting by distilling samples from a 2D image relighting diffusion model into a latent-variable NeRF."
-  project_page: https://illuminerf.github.io
-  arxiv: 2406.06527
-  image: illuminerf_before.jpg
-  image_mouseover: illuminerf_after.mp4
+
+
+
+# Template
+#- id: unique-id
+#  title: "Paper Title"
+#  venue: "Conference/Journal, Year"
+#  description: "Brief description"
+#  project_page: https://project-url.github.io
+#  arxiv: 1234.56789
+#  video: https://www.youtube.com/watch?v=example  # optional
+#  github: username/repo  # optional
+#  image: thumbnail.jpg
+#  image_mouseover: video.mp4  # optional
+#  authors:
+#    - author_id1
+#    - author_id2
+#    - author_id3
+#  equal_contribution:  # optional - adds * superscript
+#    - author_id1
+#    - author_id2
+#  corresponding_author:  # optional - adds † superscript
+#    - author_id3
+#  awards:  # optional
+#    - "Oral Presentation"
+
+- id: dynaflow
+  title: "DynaFlow: Dynamics-embedded Flow Matching for Physically Consistent Motion Generation from State-only Demonstrations"
+  venue: "Under Review, 2025"
+#  description: "Brief description"
+#  project_page: https://project-url.github.io
+  arxiv: 2509.19804
+#  github: username/repo  # optional
+  image: dynaflow.jpg
+  image_mouseover: dynaflow.mp4  # optional
   authors:
-    - xiaomingzhao
-    - pratuls
-    - dorverbin
-    - keunhong
-    - rmbrualla
-    - phenzler
-- id: reconfusion
-  title: "ReconFusion: 3D Reconstruction with Diffusion Priors"
-  venue: CVPR, 2024
-  description: "Using an multi-view image conditioned diffusion model to regularize a NeRF enabled few-view reconstruction."
-  project_page: https://reconfusion.github.io
-  arxiv: 2312.02981
-  image: reconfusion_before.png
-  image_mouseover: reconfusion_after.mp4
+    - sowoo
+    - dongyun
+    - jaehyun
+    - haewon
+  equal_contribution:
+    - sowoo
+    - dongyun
+    - jaehyun
+- id: residual-learning
+  title: "A modular residual learning framework to enhance model-based approach for robust locomotion"
+  venue: "RA-L, 2025"
+#  description: "Brief description"
+  project_page: https://neutronz77.github.io/paper-2025-ral-modular/
+  arxiv: 2507.18138
+  video: https://www.youtube.com/watch?v=zYmf5ERsJfc
+#  github: username/repo  # optional
+  image: residual_learning.png
+  image_mouseover: residual_learning.mp4  # optional
   authors:
-    - rundiwu
-    - bmild
-    - phenzler
-    - keunhong
-    - ruiqigao
-    - danielwatson
-    - pratuls
-    - dorverbin
-    - barron
-    - pooleb
-    - holynski
-- id: hypernerf
-  title: "CamP: Camera Preconditioning for Neural Radiance Fields"
-  venue: SIGGRAPH Asia, 2023
-  description: "Preconditioning camera optimization during NeRF training significantly improves their ability to jointly recover the scene and camera parameters."
-  project_page: "https://camp-nerf.github.io"
-  github: jonbarron/camp_zipnerf
-  arxiv: 2308.10902
-  image: camp_before.jpg
-  image_mouseover: camp_after.mp4
-  authors:
-    - keunhong
-    - phenzler
-    - bmild
-    - barron
-    - rmbrualla
+    - mingyu
+    - dongyun
+    - hajun
+    - haewon
   awards:
     - "Journal Paper"
 
-- id: hypernerf
-  title: "HyperNeRF: A Higher-Dimensional Representation for Topologically Varying Neural Radiance Fields"
-  venue: SIGGRAPH Asia, 2021
-  description: "By applying ideas from level set methods, we can represent topologically changing scenes with NeRFs."
-  project_page: "https://hypernerf.github.io"
-  github: google/hypernerf
-  arxiv: 2106.13228
-  image: hypernerf_before.jpg
-  image_mouseover: hypernerf_after.mp4
+- id: hopper-flip
+  title: "Learning Impact-Rich Rotational Maneuvers via Centroidal Velocity Rewards and Sim-to-Real Techniques: A One-Leg Hopper Flip Case Study"
+  venue: "CoRL, 2025"
+#  description: "Brief description"
+#  project_page: https://project-url.github.io
+  arxiv: 2505.12222
+  video: https://www.youtube.com/watch?v=FNzdKXl-jj0
+#  github: username/repo
+  image: hopper_flip.jpg
+  image_mouseover: hopper_flip.mp4
   authors:
-    - keunhong
-    - utsinh
-    - hedman
-    - barron
-    - sofien
-    - dgo
-    - rmbrualla
-    - smseitz
+    - dongyun
+    - gijeong
+    - jonghun
+    - hajun
+    - haewon
+  equal_contribution:
+    - dongyun
+    - gijeong
+    - jonghun
 
-- id: fignerf
-  title: "FiG-NeRF: Figure Ground Neural Radiance Fields for 3D Object Category Modelling "
-  venue: 3DV, 2021
-  description: "Given a lot of images of an object category, you can train a NeRF to render them from novel views and interpolate between different instances."
-  project_page: "https://fig-nerf.github.io"
-  arxiv: 2104.08418
-  image: fignerf_before.jpg
-  image_mouseover: fignerf_after.mp4
+- id: hopper-hardware
+  title: "Design of a 3-DOF Hopping Robot with an Optimized Gearbox: An Intermediate Platform Toward Bipedal Robots"
+  venue: "Humanoids, 2025"
+#  description: "Brief description"
+#  project_page: https://project-url.github.io
+  arxiv: 2505.12231
+  video: https://www.youtube.com/watch?v=FNzdKXl-jj0
+  #  github: username/repo
+  image: hopper_hardware.jpg
+  image_mouseover: hopper_hardware.mp4
   authors:
-    - chrisxie
-    - keunhong
-    - rmbrualla
-    - mtbr
-
-- id: nerfies
-  title: "Nerfies: Deformable Neural Radiance Fields"
-  venue: ICCV, 2021
-  description: "Learning deformation fields with a NeRF let's you reconstruct non-rigid scenes with high fidelity."
-  project_page: "https://nerfies.github.io"
-  github: google/nerfies
-  arxiv: 2011.12948
-  image: nerfies_before.jpg
-  image_mouseover: nerfies_after.mp4
-  authors:
-    - keunhong
-    - utsinh
-    - barron
-    - sofien
-    - dgo
-    - smseitz
-    - rmbrualla
+    - jonghun
+    - gijeong
+    - hajun
+    - dongyun
+    - haewon
   awards:
-    - "Oral Presentation"
+    - "Best Oral Paper Award"
 
-- id: latentfusion
-  title: "LatentFusion: End-to-End Differentiable Reconstruction and Rendering for Unseen Object Pose Estimation "
-  venue: CVPR, 2020
-  description: "By learning to predict geometry from images, you can do zero-shot pose estimation with a single network."
-  project_page: "https://latentfusion.github.io"
-  github: NVlabs/latentfusion
-  arxiv: 1912.00416
-  image: latentfusion_before.jpg
-  image_mouseover: latentfusion_after.mp4
+- id: friction-coeff-id
+  title: "Online Friction Coefficient Identification for Legged Robots on Slippery Terrain Using Smoothed Contact Gradients"
+  venue: "RA-L, 2025"
+#  description: "Brief description"
+#  project_page: https://project-url.github.io
+  arxiv: 2502.16843
+  video: https://www.youtube.com/watch?v=3nA2nxnjixA&t=47s
+  #  github: username/repo  # optional
+  image: friction_coeff_id.jpg
+  image_mouseover: friction_coeff_id.mp4
   authors:
-    - keunhong
-    - amousavian
-    - yux
-    - fox
-
-- id: photoshape
-  title: "PhotoShape: Photorealistic Materials for Large-Scale Shape Collections"
-  venue: SIGGRAPH Asia, 2018
-  description: "By pairing large collections of images, 3D models, and materials, you can create thousands of photorealistic 3D models fully automatically."
-  project_page: "https://photoshape.github.io"
-  github: keunhong/photoshape
-  arxiv: 1809.09761
-  image: photoshape.jpg
-  authors:
-    - keunhong
-    - krematas
-    - ali
-    - smseitz
+    - hajun
+    - dongyun
+    - mingyu
+    - gijeong
+    - haewon
   awards:
-    - "Journal Cover"
+    - "Journal Paper"
+
+- id: contact-implicit-mpc
+  title: "Contact-Implicit Model Predictive Control: Controlling Diverse Quadruped Motions Without Pre-Planned Contact Modes or Trajectories"
+  venue: "IJRR, 2024"
+#  description: "Brief description"
+#  project_page: https://project-url.github.io
+  arxiv: 2312.08961
+#  github: username/repo  # optional
+  image: contact_implicit_mpc.png
+  image_mouseover: contact_implicit_mpc.mp4
+  authors:
+    - gijeong
+    - dongyun
+    - joonha
+    - seungwoo
+    - haewon
+  awards:
+    - "Journal Paper"
+
+- id: contact-implicit-ddp
+  title: "Contact-Implicit Differential Dynamic Programming for Model Predictive Control with Relaxed Complementarity Constraints"
+  venue: "IROS, 2022"
+#  description: "Brief description"
+#  project_page: https://project-url.github.io
+#  arxiv: 1234.56789
+#  github: username/repo  # optional
+  image: contact_implicit_ddp.png
+  image_mouseover: contact_implicit_ddp.mp4
+  authors:
+    - gijeong
+    - dongyun
+    - joonha
+    - haewon
