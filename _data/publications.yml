@@ -47,9 +47,9 @@
 
 - id: dynaflow
   title: "DynaFlow: Dynamics-embedded Flow Matching for Physically Consistent Motion Generation from State-only Demonstrations"
-  venue: "Under Review, 2025"
+  venue: "ICRA, 2026"
 #  description: "Brief description"
-#  project_page: https://project-url.github.io
+  project_page: https://sowoolee.github.io/dynaflow/
   arxiv: 2509.19804
   video: https://youtu.be/t37n3Deo8ZE
   #  github: username/repo  # optional
