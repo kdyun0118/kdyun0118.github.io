@@ -26,8 +26,8 @@
 
 
 - id: model-homotopy-transfer
-  title: "Dynamic Policy Learning for Legged Robot with Simplified Model Pretraining and Model Homotopy Transfer"
-  venue: "Under Review, 2025"
+  title: "Dynamic Policy Learning for Legged Robot with Simplified Model Pretraining and Model-Homotopy-Inspired Transfer"
+  venue: "RA-L, 2026"
 #  description: "Brief description"
 #  project_page: https://project-url.github.io
   arxiv: 2512.24698
@@ -42,8 +42,8 @@
     - hajun
     - sehoon
     - haewon
-#  awards:
-#    - "Journal Paper"
+  awards:
+    - "Journal Paper"
 
 - id: dynaflow
   title: "DynaFlow: Dynamics-embedded Flow Matching for Physically Consistent Motion Generation from State-only Demonstrations"
